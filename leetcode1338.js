@@ -7,7 +7,7 @@ Return the minimum size of the set so that at least half of the integers of the 
 var minSetSize = function(arr) {
     let obj ={};
     let len = arr.length;
-    for(let i = 0; i < arr.length; i++){
+    for(let i = 0; i < len; i++){
         if(obj[arr[i]]){
             obj[arr[i]]++
         }else{

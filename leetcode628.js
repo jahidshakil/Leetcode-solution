@@ -3,7 +3,6 @@ Given an integer array nums, find three numbers whose product is maximum and ret
 
 */
 
-
 var maximumProduct = function(nums) {
     
     nums=nums.sort((a,b)=>a-b);

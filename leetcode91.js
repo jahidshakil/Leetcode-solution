@@ -39,3 +39,6 @@ function numDecodings(s) {
   
     return table[s.length];
   }
+
+
+  console.log(numDecodings("111"))
