@@ -26,3 +26,24 @@ var connect = function(root) {
     }
     return top;
 };
+
+
+// iterative solution
+
+
+var connect = function(root) {
+    if(!root){
+        return null
+    }
+    let q = [root];
+    while(q.length){
+        let length = q.length;
+        while(length--){
+            let node = q.shift();
+            node.next = length==0?null:q[0] //condition to check it is in same level or not
+            if(node.left) q.push(node.left);
+            if(node.right) q.push(node.right);
+        }     
+    }
+    return root
+};
