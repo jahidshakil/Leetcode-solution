@@ -20,8 +20,6 @@ var mergeKLists = function(lists) {
     
 };
 
-
-
  function mergeTwoLists(a,b){
      let dummy = new ListNode(0);
      let current = dummy;
