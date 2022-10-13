@@ -29,3 +29,5 @@ var generateMatrix = function (n) {
     return mat
     
 };
+
+console.log(generateMatrix(4))

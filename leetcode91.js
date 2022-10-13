@@ -41,4 +41,4 @@ function numDecodings(s) {
   }
 
 
-  console.log(numDecodings("111"))
+  console.log(numDecodings("1121"))

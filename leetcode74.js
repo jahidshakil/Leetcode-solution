@@ -13,7 +13,7 @@ var searchMatrix = function(matrix, target) {
 
     while(r < matrix.length && c >= 0) {
 
-        if(target == matrix[r][c])
+        if( matrix[r][c]==target)
             return true;
 
         else if(matrix[r][c] > target)
