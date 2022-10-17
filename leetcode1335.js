@@ -43,5 +43,5 @@ var minDifficulty = (jobDifficulty, d) => {
         }
         return memo[key]=result;
     }
-    return dfs(0,0)
+    return dfs(0, 0);
 }

@@ -16,7 +16,7 @@ Output: 2
 Explanation: You need to remove two [1,2] to make the rest of the intervals non-overlapping.
 */
 
-var eraseOverlapIntervals = function (intervals) {
+var countIntervals = (intervals)=> {
     intervals.sort((a,b)=> a[1]-b[1]);
     let previous = intervals[0];
     let count =0; 
@@ -27,3 +27,6 @@ var eraseOverlapIntervals = function (intervals) {
     }
     return count;
 };
+let ans =countIntervals([[1,2],[3,2],[2,1],[3,2],[4,5],[4,6]])
+
+console.log(ans)
