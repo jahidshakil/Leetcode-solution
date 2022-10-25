@@ -26,3 +26,5 @@ var numFactoredBinaryTrees = function(arr) {
     return total % (10**9 + 7)
     
 };
+
+console.log(numFactoredBinaryTrees([1,5,3,5,8,2,10,7])
