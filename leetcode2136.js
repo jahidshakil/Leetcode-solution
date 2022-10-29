@@ -17,9 +17,6 @@ On days 5, 6, and 7, plant the 2nd seed. The seed grows for 1 full day and bloom
 Thus, on day 9, all the seeds are blooming.
 
 
-
-
-
 Input: plantTime = [1,2,3,2], growTime = [2,1,2,1]
 Output: 9
 Explanation: The grayed out pots represent planting days, colored pots represent growing days, and the flower represents the day it blooms.
